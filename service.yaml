@@ -7,3 +7,4 @@ spec:
     app: banana
   ports:
     - port: 5678
+      protocol: TCP
