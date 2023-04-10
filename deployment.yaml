@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: banaba
+        app: banana
     spec:
       containers:
       - name: banana-app

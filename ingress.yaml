@@ -9,6 +9,9 @@ spec:
   - http:
       paths:
         - path: /banana
+          pathType: Prefix
           backend:
-            serviceName: banana-service
-            servicePort: 5678
+            service:
+              name: banana-service
+              port:
+                number: 5678
