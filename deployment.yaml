@@ -16,6 +16,4 @@ spec:
     spec:
       containers:
       - name: banana-app
-        image: hashicorp/http-echo
-        args:
-          - "-text=banana"
+        image: ealen/echo-server
